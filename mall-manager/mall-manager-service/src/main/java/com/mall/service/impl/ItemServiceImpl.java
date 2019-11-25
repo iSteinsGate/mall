@@ -2,14 +2,14 @@ package com.mall.service.impl;
 
 import com.mall.mapper.TbItemMapper;
 import com.mall.pojo.TbItem;
-import com.mall.service.TbItemService;
+import com.mall.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional(readOnly = true)
-public class TbItemServiceImpl implements TbItemService {
+public class ItemServiceImpl implements ItemService {
     @Autowired
     TbItemMapper tbItemMapper;
 
