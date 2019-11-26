@@ -1,6 +1,9 @@
 package com.mall.pojo;
 
-public class TbOrderItem {
+import java.io.Serializable;
+
+public class TbOrderItem implements Serializable {
+    private static final long serialVersionUID = -7254765055820499437L;
     private String id;
 
     private String itemId;

@@ -1,8 +1,10 @@
 package com.mall.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbContentCategory {
+public class TbContentCategory implements Serializable {
+    private static final long serialVersionUID = 4030809961307954092L;
     private Long id;
 
     private Long parentId;

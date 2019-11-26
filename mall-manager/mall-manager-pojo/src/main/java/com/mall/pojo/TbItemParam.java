@@ -1,8 +1,10 @@
 package com.mall.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbItemParam {
+public class TbItemParam implements Serializable {
+    private static final long serialVersionUID = 919033737290879562L;
     private Long id;
 
     private Long itemCatId;
